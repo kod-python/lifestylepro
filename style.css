@@ -1,0 +1,314 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: azure;
+
+}
+
+/* header section starts here */
+
+#hero nav ul{
+    display: flex;
+    justify-content: center;
+   
+    
+}
+
+#hero h1{
+    text-align: center;
+    font-size: 2.8rem;
+
+}
+
+
+#hero img{
+   width: 30px;
+}
+
+#hero .mytopimi{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  margin-right: 100px;
+}
+
+#hero nav ul li{
+    list-style-type: none;
+}
+
+#hero nav ul li a{
+    text-decoration: none;
+    margin: 10px;
+    color: black;
+    font-size: 1.3rem;
+}
+
+#hero .headimi{
+    background-image: url(./images/backimi.jpg);
+}
+
+
+/* header section ends */
+
+
+/* head image starts here */
+#backimi {
+    background-image: url(./images/backimi.jpg);
+    background-size: cover;
+    height: 500px;
+}
+/* head image  ends here */
+
+
+
+/* About starts here */
+
+#about .about-all{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+   
+}
+
+#about .pred{
+    color: crimson;
+}
+
+/* first about starts here */
+
+#about .even{
+    margin-left: 30px;
+}
+
+#about .imi-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#about .imi-link a{
+    margin-left: 260px;
+}
+
+#about hr{
+    width: 600px;
+}
+
+
+#about .fimi{
+    height: 600px;
+    width: 600px;
+}
+
+#about .fimi1{
+    width:300px;
+    height: 300px;
+    
+}
+
+#about .fimi2{
+    width: 300px;
+    height: 300px;
+}
+
+#about .fimi3{
+    width: 300px;
+    height: 300px;
+}
+
+#about .about-imi img{
+    width: 40px;
+}
+
+
+#about .travel-explore1{
+   display: flex;
+   
+}
+#about .travel-explore{
+    margin: 20px;
+}
+
+#about .go-learn1{
+  display: flex;
+}
+
+#about .go-learn{
+    margin: 20px;
+}
+
+
+#about .travel-spend1{
+   display: flex;
+}
+
+#about .travel-spend{
+    margin: 20px;
+}
+/* first about ends here */
+
+/* second about starts here */
+#about .second-about{
+    margin-top: 60px;
+}
+
+#about .second-about .input1{
+    width:800px
+}
+
+#about .second-about .about-author{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.2rem;
+    
+}
+
+#about .second-about .author-imi{
+    width: 60px;
+}
+
+
+#about .second-about .downimi{
+    width:15px;
+    margin: 10px;
+}
+
+#about .second-about .about-recent{
+    justify-content: center;
+    text-align: center;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.2rem;
+}
+
+#about .second-about .about-category{
+    justify-content: center;
+    background-color: white;
+    border-radius: 0.2rem;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+}
+
+#about .second-about .cate{
+    text-align: center;
+}
+
+#about .second-about .about-category span{
+
+margin-left: 200px;
+color: crimson;
+ 
+}
+
+
+#about .second-about .tag{
+    justify-content: center;
+    text-align: justify;
+    border: 1px solid wheat;
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 0.2rem;  
+    
+}
+
+
+#about .lifelife{
+    display: flex;
+    justify-content: space-between;
+    line-height: 5vh;
+}
+
+
+#about .second-about .tata{
+    text-align: center;
+}
+
+#about .second-about button{
+    padding: 5px;
+  
+
+}
+
+/* about section ends here */
+
+/* footer starts here */
+footer{
+background-color: #323232;
+color: white;
+border-radius: 0.2rem;
+margin-top: 120px;
+}
+
+footer .footer-top{
+display: flex;
+text-align: justify;
+justify-content: center;
+margin: 10px;
+margin-left: 180px;
+
+}
+
+footer h2{
+  
+}
+
+footer .kaka{
+    display: flex;
+}
+
+footer .kaka{
+    justify-content: space-between;
+}
+
+footer hr{
+    width: 240px;
+}
+
+footer .kod{
+    margin-left: -140px ;
+}
+
+footer .recent{
+    margin-left:47px;
+}
+
+footer .category{
+    margin-left:38px ;
+}
+
+footer .contact{
+    margin-left: 58px;
+}
+
+footer img{
+    width: 30px;
+}
+
+
+footer .copy-right{
+    margin-top: 40px;
+    display: flex;  
+}
+
+footer .hr{
+margin-top: 90px;
+width: 100px;
+}
+
+/* footer ends here */
