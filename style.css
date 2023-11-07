@@ -153,6 +153,10 @@ body{
 #about .travel-spend{
     margin: 20px;
 }
+
+#about .first-about input{
+    border: none;
+}
 /* first about ends here */
 
 /* second about starts here */
