@@ -306,13 +306,19 @@ footer img{
 
 
 footer .copy-right{
-    margin-top: 40px;
-    display: flex;  
+   
+ margin-left: -600px;
 }
 
-footer .hr{
-margin-top: 90px;
-width: 100px;
+
+
+footer .footer-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: -300px;
+  margin-top: 60px;
 }
 
 /* footer ends here */
